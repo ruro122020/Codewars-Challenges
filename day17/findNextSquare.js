@@ -8,3 +8,4 @@ If the parameter is itself not a perfect square then -1 should be returned. You 
 function findNextSquare(sq) {
   return Math.sqrt(sq) % 1 === 0 ? (Math.sqrt(sq) + 1) ** 2 : -1;
 }
+findNextSquare(121);
